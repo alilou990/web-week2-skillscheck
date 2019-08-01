@@ -1,0 +1,112 @@
+body {
+    width: 100vw;
+    height: 250vh;
+    
+}
+
+header {
+    width: 100%;
+    height: 3%;
+    background-color: #707070;
+    text-align: center;
+}
+
+header > h1 {
+    width: 25%;
+    height: 80%;
+    float: left;
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+header > ul {
+    width: 25%;
+    height: 85%;
+    color: white;
+    float: right;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: sans-serif;
+}
+
+header > ul > li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.container-one {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    background: black;
+    /* padding: 250px; */
+    text-align: center;
+}
+
+.container-one > h1 {
+    position: absolute;
+    color: #EAE15F;
+    font-size: 100px;
+    font-weight: 800;
+    margin: 160px;
+    font-family: sans-serif;
+}
+
+.container-two {
+    width: 100%;
+    height: 20%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    background: #A2FAD6;
+    margin-top: 55px;
+    border-radius: 10%
+}
+
+.container-three {
+    width: 100%;
+    height: 15%;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rectangle {
+    width: 550px;
+    height: 250px;
+    background: #F8C36B;
+}
+
+.container-four {
+    width: 100%;
+    height: 25%;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.p-box {
+    width: 500px;
+    height: 400px;
+    background: white;
+    font-size: 23px;
+    margin: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background: #3A3A56;
+}
+
+
